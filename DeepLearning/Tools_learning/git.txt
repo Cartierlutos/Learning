@@ -1,0 +1,25 @@
+初始化：
+    git init
+
+管理文件（文件夹）
+    git add 文件名
+    git add .
+
+个人信息配置：用户名，邮箱
+    git config --global user.emial "xxx.@gmial.com"
+    git config --global user.name "lutos"
+
+生成版本：
+    git commit -m "描述信息"
+
+查看版本记录：
+    git log
+
+回滚版本：
+    git log
+    git reset --hard 版本号
+
+前进版本：
+    git reflog
+    git reset --hard 版本号
+
