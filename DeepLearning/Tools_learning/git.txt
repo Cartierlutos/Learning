@@ -23,3 +23,20 @@
     git reflog
     git reset --hard 版本号
 
+查看分支：
+    git branch
+
+新建分之：
+    git branch 分支名称
+
+切换分支：
+    git checkout 分支名称
+
+合并分支：
+    git merge 要合并的分支    # 需要先切换分支再合并
+
+删除分支：
+    git branch -d 分支名称
+
+
+
