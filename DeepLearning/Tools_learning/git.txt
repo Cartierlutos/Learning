@@ -38,5 +38,16 @@
 删除分支：
     git branch -d 分支名称
 
+添加远程仓库：
+    git remote add origin http://xxx
 
+推送代码：
+    git push -u origin 分支
+
+克隆远程仓库代码：
+    git clone http://xxx
+
+切换分支：
+    git checkout 分支名称
+    
 
