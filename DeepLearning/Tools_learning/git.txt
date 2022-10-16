@@ -49,5 +49,21 @@
 
 切换分支：
     git checkout 分支名称
-    
+
+保持代码提交整洁：
+    git rebase 分支
+
+记录图形展示：
+    git log --graph --pretty=format:"%h, %s"
+
+git pull origin dev:
+    等同于： git fetch origin dev + git merge dev
+
+不产生分叉的pull方法：
+    git fetch origin dev
+    git rebase origin/dev
+
+自动解决冲突软件：
+    beyond compare
+
 
